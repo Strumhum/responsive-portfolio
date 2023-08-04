@@ -121,7 +121,7 @@ h2 {
   p {
     font-size: 12px;
     line-height: 1.2;
-    width: 180px;
+    width: 200px;
     text-align: center;
     margin: 0 auto;
   }
@@ -129,6 +129,7 @@ h2 {
     font-size: 10px;
     letter-spacing: 1px;
     padding: 10px 24px;
+    margin: 0 auto;
   }
   .hero {
     padding: 53% 10% 15%;
