@@ -44,6 +44,14 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+
 .logo {
   font-family: "Playfair Display", serif;
   font-weight: 900;
@@ -73,6 +81,17 @@ h2 {
 .btn-white:hover {
   background: var(--accent-color);
   color: var(--primary-color);
+  transition: all 250ms ease-in-out;
+}
+
+.btn-accent {
+  background: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.btn-accent:hover {
+  background: var(--primary-color);
+  color: var(--accent-color);
   transition: all 250ms ease-in-out;
 }
 
@@ -113,6 +132,14 @@ h2 {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.contact-cta {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  margin: 94px auto;
+  max-width: 1152px;
+  padding: 46px 74px;
 }
 
 /* responsive media queries */
