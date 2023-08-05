@@ -138,7 +138,7 @@ h3 {
 }
 
 /* responsive media queries */
-@media (max-width: 1340px) {
+@media (max-width: 1399px) {
   h1 {
     font-size: 48px;
     line-height: 58px;
