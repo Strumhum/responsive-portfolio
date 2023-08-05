@@ -135,6 +135,9 @@ h3 {
   margin: 94px auto;
   max-width: 1152px;
   padding: 46px 74px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* responsive media queries */
@@ -200,7 +203,32 @@ h3 {
   .mb-4 {
     margin-bottom: 1rem !important;
   }
-  .gallery {
+  .gallery .contact-cta {
     margin: 0 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  h3 {
+    font-size: 24px;
+  }
+  .contact-cta {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 22px;
+  }
+  .contact-cta {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-cta p {
+    width: 100%;
+  }
+  .contact-cta-btn {
+    margin-top: 15px;
   }
 }
