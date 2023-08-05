@@ -27,5 +27,74 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <img src="/images/Shelley_HS.jpg" alt="Shelley White - photographer" />
+    <h2>About me</h2>
+    <h1>Shelley White</h1>
+    <p>
+      Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
+      sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut amet
+      diam suscipit pretium massa, sollicitudin in risus in. Sagittis.
+    </p>
+    <div class="social-icons"></div>
+    <h4>My camera</h4>
+    <div class="camera-box d-flex">
+      <img src="/images/camera.png" alt="Olympus camera" />
+      <h5>Olympus PEN-F Kamera Mirrorlees</h5>
+    </div>
+    <div class="buttons d-flex mt-4">
+      <a class="btn btn-white" href="/gallery.html" role="button"
+        >View my portfolio</a
+      >
+      <a class="btn btn-accent" href="/contact.html" role="button"
+        >Contact Me</a
+      >
+    </div>
+
+    <!-- About gallery row -->
+    <div class="container">
+      <div class="d-flex justify-content-center mb-4">
+        <ul class="gallery">
+          <li>
+            <img
+              src="/images/About_Row_1.jpg"
+              srcset="
+                /images/About_Row_1.jpg     300w,
+                /images/About_Row_1_2x.jpg  600w,
+                /images/About_Row_1_4x.jpg 1200w
+              "
+              sizes="(max-width: 320px) 300px, (min-width: 1400px) 300px, 300px"
+              class="img-fluid"
+              alt="Moody photo of wooden bridge over a lake"
+            />
+          </li>
+          <li>
+            <img
+              src="/images/About_Row_2.jpg"
+              srcset="
+                /images/About_Row_2.jpg     300w,
+                /images/About_Row_2_2x.jpg  600w,
+                /images/About_Row_2_4x.jpg 1200w
+              "
+              sizes="(max-width: 320px) 300px, (min-width: 1400px) 300px, 300px"
+              class="img-fluid"
+              alt="Blonde woman wearing sunglasses lighting a cigarette"
+            />
+          </li>
+          <li>
+            <img
+              src="/images/About_Row_3.jpg"
+              srcset="
+                /images/About_Row_3.jpg     300w,
+                /images/About_Row_3_2x.jpg  600w,
+                /images/About_Row_3_4x.jpg 1200w
+              "
+              sizes="(max-width: 360px) 300px, (max-width: 768px) 600px, (max-width: 1399px) 1200px, 300px"
+              class="img-fluid"
+              alt="Woman's face seen through her hands making a frame"
+            />
+          </li>
+        </ul>
+      </div>
+  </body>
 </html>
