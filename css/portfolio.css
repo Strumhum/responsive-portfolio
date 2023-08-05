@@ -101,11 +101,7 @@ h3 {
   background-position: center right;
   background-size: cover;
   max-height: 800px;
-  padding: 24% 20%;
-}
-
-.hero-text {
-  position: relative;
+  padding: 24% 12%;
 }
 
 .container {
@@ -123,15 +119,14 @@ h3 {
 }
 
 .gallery > li {
-  height: 280px;
+  height: auto;
   position: relative;
-  flex-grow: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .gallery li img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
 }
 
 .contact-cta {
@@ -204,5 +199,8 @@ h3 {
   }
   .mb-4 {
     margin-bottom: 1rem !important;
+  }
+  .gallery {
+    margin: 0 5%;
   }
 }
