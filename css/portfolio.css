@@ -199,6 +199,27 @@ h5 {
   margin-right: 40px;
 }
 
+.contact-container h1 {
+  margin-bottom: 8%;
+}
+
+.contact-icon {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.contact-text {
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-content {
+  padding: 10px;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+}
+
 /* responsive media queries */
 @media (max-width: 1399px) {
   h1 {
