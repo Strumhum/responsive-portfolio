@@ -74,6 +74,8 @@ ul {
   padding: 0;
 }
 
+/* nav bar */
+
 .nav-bar {
   background: #202020;
 }
@@ -123,6 +125,8 @@ nav li.active a {
   color: var(--accent-color);
 }
 
+/* buttons */
+
 .btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -156,6 +160,12 @@ nav li.active a {
   transition: all 250ms ease-in-out;
 }
 
+.buttons .btn-white {
+  margin-right: 40px;
+}
+
+/* Home page hero */
+
 .hero {
   background-image: url(/images/Hero-Image.jpg);
   background-repeat: no-repeat;
@@ -173,6 +183,8 @@ nav li.active a {
   display: block;
   margin: 94px auto;
 }
+
+/* gallery */
 
 .gallery {
   display: flex;
@@ -192,7 +204,14 @@ nav li.active a {
 .gallery li img {
   object-fit: cover;
   width: 100%;
+  transition: all 200ms ease-in-out;
 }
+
+.gallery li img:hover {
+  opacity: 0.7;
+}
+
+/* contact block */
 
 .contact-cta {
   background-color: var(--secondary-color);
@@ -205,6 +224,8 @@ nav li.active a {
   flex-wrap: wrap;
 }
 
+/* images - About page */
+
 .headshot {
   object-fit: cover;
 }
@@ -214,6 +235,24 @@ nav li.active a {
   border: none;
   width: 100px;
 }
+
+/* content - About page */
+
+.about-text p {
+  width: 85%;
+}
+
+.camera-box {
+  background-color: var(--secondary-color);
+  padding: 8px 20px 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 4px;
+  width: 75%;
+}
+
+/* social icons and links */
 
 .social-icons {
   display: inline-flex;
@@ -251,24 +290,8 @@ nav li.active a {
 .social-icons-footer {
   gap: 20px;
 }
-.about-text p {
-  width: 85%;
-}
 
-.camera-box {
-  background-color: var(--secondary-color);
-  padding: 8px 20px 8px 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  border-radius: 4px;
-  width: 75%;
-}
-
-.buttons .btn-white {
-  margin-right: 40px;
-}
-
+/* contact page */
 .contact-container h1 {
   margin-bottom: 8%;
 }
@@ -293,6 +316,8 @@ nav li.active a {
   gap: 5px;
   width: 100%;
 }
+
+/* footer */
 .footer-bar {
   background: #202020;
 }
@@ -329,6 +354,7 @@ nav li.active a {
   }
 }
 
+/* mobile */
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
@@ -423,6 +449,17 @@ nav li.active a {
   h3 {
     font-size: 22px;
   }
+  ul {
+    margin: 0 auto;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav li {
+    font-size: 14px;
+    margin-left: 20px;
+  }
   .contact-cta {
     flex-wrap: wrap;
     justify-content: center;
@@ -438,17 +475,6 @@ nav li.active a {
     font-size: 22px;
     text-align: center;
     line-height: 1.5;
-  }
-  ul {
-    margin: 0 auto;
-  }
-  nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-  nav li {
-    font-size: 14px;
-    margin-left: 20px;
   }
   .home {
     margin-left: 0;
