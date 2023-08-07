@@ -224,6 +224,17 @@ nav li.active a {
   font-size: 24px;
 }
 
+.social-icons-footer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.social-icons-footer {
+  gap: 30px;
+}
 .about-text p {
   width: 85%;
 }
@@ -246,6 +257,10 @@ nav li.active a {
   margin-bottom: 8%;
 }
 
+.contact-container {
+  padding-bottom: 40px;
+}
+
 .contact-icon {
   font-size: 18px;
   padding-right: 10px;
@@ -261,6 +276,13 @@ nav li.active a {
   justify-content: center;
   gap: 5px;
   width: 100%;
+}
+.footer-bar {
+  background: #202020;
+}
+
+.footer.logo {
+  line-height: 24px;
 }
 
 /* responsive media queries */
@@ -414,5 +436,24 @@ nav li.active a {
   }
   .home {
     margin-left: 0;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-content p {
+    display: block;
+    margin: 0 auto;
+  }
+  .social-icons-footer {
+    gap: 15px;
+    display: block;
+    margin: 0 auto;
+  }
+  .social-icons-footer a {
+    font-size: 16px;
+  }
+  .contact-container {
+    padding-bottom: 0;
   }
 }
