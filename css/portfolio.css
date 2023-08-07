@@ -75,7 +75,6 @@ ul {
 }
 
 /* nav bar */
-
 .nav-bar {
   background: #202020;
 }
@@ -126,7 +125,6 @@ nav li.active a {
 }
 
 /* buttons */
-
 .btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -165,7 +163,6 @@ nav li.active a {
 }
 
 /* Home page hero */
-
 .hero {
   background-image: url(/images/Hero-Image.jpg);
   background-repeat: no-repeat;
@@ -185,7 +182,6 @@ nav li.active a {
 }
 
 /* gallery */
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -212,7 +208,6 @@ nav li.active a {
 }
 
 /* contact block */
-
 .contact-cta {
   background-color: var(--secondary-color);
   border-radius: 8px;
@@ -225,7 +220,6 @@ nav li.active a {
 }
 
 /* images - About page */
-
 .headshot {
   object-fit: cover;
 }
@@ -237,7 +231,6 @@ nav li.active a {
 }
 
 /* content - About page */
-
 .about-text p {
   width: 85%;
 }
@@ -253,7 +246,6 @@ nav li.active a {
 }
 
 /* social icons and links */
-
 .social-icons {
   display: inline-flex;
   justify-content: center;
