@@ -295,6 +295,7 @@ nav li.active a {
 .contact-icon {
   font-size: 18px;
   padding-right: 10px;
+  line-height: 1.5 !important;
 }
 
 .contact-text {
@@ -307,6 +308,14 @@ nav li.active a {
   justify-content: center;
   gap: 5px;
   width: 100%;
+}
+
+a.email {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a.email:hover {
+  color: var(--accent-color);
 }
 
 /* footer */
